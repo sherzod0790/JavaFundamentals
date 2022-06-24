@@ -8,5 +8,7 @@ public class String_01_contains {
         System.out.println(name.contains("do you know"));
         System.out.println(name.contains("about"));
         System.out.println(name.contains("hello"));
+
+        //
     }
 }
