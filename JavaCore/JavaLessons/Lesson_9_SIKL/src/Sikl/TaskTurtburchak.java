@@ -14,7 +14,7 @@ public class TaskTurtburchak {
 //        }
 
 
-//        int n = 8; //зададите с клавиатуры
+//        int n = 8;
 //        for(int t=2;t<=n;t++)
 //            System.out.printf("%"+n+"s%n", new String(new char[t]).replace("\0", "x"));
 
