@@ -4,6 +4,7 @@ package STRING;
 
 public class String_03_equalsIgnoreCase {
 
+    // equalsIsIgnoreCase - Teng - e'tiborsiz holat
     public static void main(String args[]) {
         String s1 = "javatpoint";
         String s2 = "javatpoint";

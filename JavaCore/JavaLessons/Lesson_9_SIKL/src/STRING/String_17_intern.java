@@ -7,7 +7,6 @@ public class String_17_intern {
 
 
         //   String intern()
-
         String s1 = new String("hello");
         String s2 = "hello";
         String s3 = s1.intern();

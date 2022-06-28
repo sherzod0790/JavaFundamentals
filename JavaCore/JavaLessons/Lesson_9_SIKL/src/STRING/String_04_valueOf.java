@@ -6,6 +6,7 @@ public class String_04_valueOf {
 
     public static void main(String args[]) {
 
+        // valueOf - qiymati
         int value = 30;
 //        boolean b =true;
         String s1 = String.valueOf(value);
