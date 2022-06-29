@@ -1,6 +1,6 @@
 package MethodsOverload;
 
-public class OverloadDemo {
+public class _01_OverloadDemo {
 
     void test() {
         System.out.println("Параметры отсутствуют");
@@ -24,7 +24,7 @@ public class OverloadDemo {
 class Overload{
 
     public static void main(String[] args) {
-        OverloadDemo ob = new OverloadDemo();
+        _01_OverloadDemo ob = new _01_OverloadDemo();
         double result;
 
         ob.test();
