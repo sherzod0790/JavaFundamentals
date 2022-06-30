@@ -29,6 +29,15 @@ int k = 0;
             System.out.println();
         }
 
+        System.out.println("уфуцйуйOriginal matrix is: ");
+
+        for (int j = 0; j < c; j++) {
+            for (int i = 0; i < r; i++) {
+                System.out.print(matA[i][j] + "\t");
+            }
+            System.out.println();
+        }
+
         System.out.println("Transpose matrix is: ");
 
         for (int i = 0; i < c; i++) {
@@ -37,6 +46,8 @@ int k = 0;
             }
             System.out.println();
         }
+
+
 
 
     }

@@ -5,8 +5,7 @@ public class ClassSort {
     C son3 = new C();
 
 
-    public ClassSort() {
-    }
+    public ClassSort() {}
 
     public ClassSort(int son1, int son2, int son3) {
         this.son1.a = son1;
