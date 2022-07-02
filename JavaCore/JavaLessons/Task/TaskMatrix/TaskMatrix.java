@@ -4,6 +4,32 @@ public class TaskMatrix {
 
     public static Scanner sc = new Scanner(System.in);
 
+    static int[][] inputVal(int[][] arr){
+
+        int k = 0;
+        for (int i = 0; i < arr.length; i++) {
+            for (int j = 0; j < arr[i].length; j++) {
+                k++;
+                arr[i][j] = k;
+            }
+        }
+        return arr;
+    }
+
+    static void addArrayElements(int[][] arr){
+
+        int sum;
+        System.out.println("Add array elemtns summa: ");
+        for (int i = 0; i < arr.length; i++) {
+            sum = 0;
+            for (int j = 0; j < arr[i].length; j++) {
+                System.out.print(arr[i][j] + "\t");
+                sum += arr[i][j];
+            }
+            System.out.println("\tSumma elemtns: " + sum);
+        }
+
+    }
 
     static void principalDiagonal(int mat[][])
     {
@@ -62,30 +88,9 @@ public class TaskMatrix {
         }
     }
 
-    static int[][] inputVal(int[][] arr){
 
-        int k = 0;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                k++;
-                arr[i][j] = k;
-            }
-        }
-        return arr;
-    }
 
-    static void addArrayElements(int[][] arr){
 
-        int sum = 0;
-        for (int i = 0; i < arr.length; i++) {
-            for (int j = 0; j < arr[i].length; j++) {
-                System.out.print(arr[i][j] + "\t");
-                sum += arr[i][j];
-            }
-            System.out.println("\tSumma elemtns: " + sum);
-        }
-
-    }
     // Driver code
     public static void main(String args[])
     {
@@ -98,9 +103,10 @@ public class TaskMatrix {
 
         arr = inputVal(arr);
 
+        addArrayElements(arr);
         principalDiagonal(arr);
         secondaryDiagonal(arr);
-        addArrayElements(arr);
+
     }
 
 }
