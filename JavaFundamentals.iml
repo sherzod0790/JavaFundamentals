@@ -11,6 +11,7 @@
       <sourceFolder url="file://$MODULE_DIR$/JavaCore/JavaLessons/Task/TaskTriangle" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaCore/JavaLessons/Lesson_11_Matrix/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/JavaCore/SHILDT/Dastur/Matrix" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/JavaCore/OOP/Lesson-4/src" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
