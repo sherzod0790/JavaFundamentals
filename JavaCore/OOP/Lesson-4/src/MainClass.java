@@ -7,7 +7,7 @@ public class MainClass {
 
     public static void main(String[] args) {
 
-        EncapsulationFinal obj = new EncapsulationFinal();
+        EncapsulationFinal obj = new EncapsulationFinal("fsdfs","fsdfs");
 
         obj.setId(456);
         System.out.println(obj.getId());

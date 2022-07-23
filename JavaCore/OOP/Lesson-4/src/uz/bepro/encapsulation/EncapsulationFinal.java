@@ -8,6 +8,7 @@ public class EncapsulationFinal {
         API_URL = api_url;
     }
 
+
     private static int nextId = 1;
     private  int id;
 
